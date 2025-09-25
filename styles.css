@@ -162,6 +162,7 @@ body {
   gap: 45px;
   list-style: none;
   margin-right: 20px;
+  font-family: 'montserrat', sans-serif;
 }
 
 .nav-item {
@@ -215,6 +216,7 @@ body {
   cursor: pointer;
   padding: 8px 16px;
   transition: opacity 0.3s ease;
+  text-decoration: none;
 }
 
 .enquire-btn:hover {
@@ -274,6 +276,8 @@ body {
     font-size: 11px;
   }
 }
+
+
 
 /* Hero区域 - 使用第二个图片（浅灰色纹理背景） */
 .hero {
@@ -377,12 +381,12 @@ body {
 }
 
 .hero-title {
-  font-size: 64px;
-  font-weight:700;
+  font-size: 78px;
+  font-weight:400;
   color: rgb(0,38,59);
   margin-bottom: 10px;
-  /* font-family: 'LXGW WenKai', serif; */
-  /* font-style: italic; */
+  font-family: 'playfair display', serif;
+  font-style: italic;
   position: absolute;
   bottom: 25px;
   left: 25px;
@@ -404,6 +408,7 @@ body {
   margin-bottom: 15px;
   line-height: 1.6;
   letter-spacing: 1px;
+  font-family: 'montserrat', sans-serif;
 }
 
 .main-logo {
@@ -529,13 +534,14 @@ body {
 
 .section-title {
   font-size: 32px;
-  font-weight: 600;
+  font-weight: 400;
   color: rgb(171,145,120);;
   margin-bottom: 60px;
   text-align: left;
-  letter-spacing: 4px;
+  /* letter-spacing: 4px; */
   position: relative;
   display: inline-block;
+  font-family: 'montserrat', sans-serif;
 }
 
 .section-title::after {
@@ -543,7 +549,7 @@ body {
   position: absolute;
   top: 50%;
   left: 250px;
-  width: 50vw;
+  width: 40vw;
   height: 1.5px;
   background: rgb(171, 145, 120);
   transform: translateY(-50%);
@@ -555,6 +561,7 @@ body {
   gap: 60px;
   align-items: center;
   margin-bottom: 80px;
+  /* font-family: 'montserrat', sans-serif; */
 }
 
 .service-item.reverse {
@@ -582,19 +589,22 @@ body {
 
 .service-content h3 {
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 400;
   color: rgb(0,38,59);;
   margin-bottom: 20px;
   line-height: 1.4;
-  letter-spacing: 3px;
+  letter-spacing: -1px;
+  font-family: 'montserrat', serif;
+  /* font-style: italic; */
 }
 
 .service-content p {
-  font-size: 18px;
+  font-size: 16px;
   color: rgb(0,38,59);;
   margin-bottom: 25px;
   line-height: 1.6;
-  letter-spacing: 2px;
+  /* letter-spacing: 2px; */
+  font-family: 'montserrat', sans-serif;
 }
 
 .read-more {
@@ -693,6 +703,7 @@ body {
 
 .card-content {
   padding: 20px;
+  font-family: 'montserrat', sans-serif;
 }
 
 .card-category {
@@ -791,6 +802,7 @@ body {
   gap: 40px;
   align-items: start;
   margin-bottom: 40px;
+  font-family: 'montserrat', sans-serif;
 }
 
 .footer-logo-circle {
@@ -956,6 +968,14 @@ body {
 }
 
 @media (max-width: 1200px) {
+  .nav-items {
+    gap: 12px;
+  }
+
+  .nav-item {
+    font-size: 14px;
+  }
+
   .hero-title {
     font-size: 52px;
   }
@@ -971,6 +991,14 @@ body {
 }
 
 @media (max-width: 1024px) {
+  .nav-items {
+    gap: 12px;
+  }
+
+  .nav-item {
+    font-size: 14px;
+  }
+
   .hero-top {
     grid-template-columns: 1fr;
     gap: 40px;
@@ -1044,6 +1072,14 @@ body {
 }
 
 @media (max-width: 900px) {
+  .nav-items {
+    gap: 10px;
+  }
+
+  .nav-item {
+    font-size: 12px;
+  }
+
   .hero-title {
     font-size: 42px;
   }
@@ -1124,11 +1160,11 @@ body {
   }
 
   .nav-items {
-    gap: 15px;
+    gap: 10px;
   }
 
   .nav-item {
-    font-size: 14px;
+    font-size: 10px;
   }
 
   .enquire-btn {
